@@ -23,3 +23,6 @@ eur_boundaries_cropped$Country <- countrycode(unique(eur_boundaries_cropped$CNTR
                                               destination = "cowc")
 eur_boundaries_filtered <- subset(eur_boundaries_cropped, 
                                   eur_boundaries_cropped$Country %in% codes)
+
+#Build neighborhood
+nb <- build_neighborhood(eur_boundaries_filtered$Country, contdird)
