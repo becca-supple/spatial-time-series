@@ -1,6 +1,6 @@
 # Code and data related to "Discovering causal relationships between time series with spatial structure" (Supple et al., 2026)
 
-This repository houses the code and data necessary to replicate results from the poster "Discovering causal relationships between time series with spatial structure" presented by R.F. Supple et al. at the Isaac Newton Institute workshop on causal identification and discovery, 4th March 2026.
+This repository houses the code and data necessary to replicate results from the \href{https://becca-supple.github.io/files/posters/INI%20Poster.pdf}{poster} "Discovering causal relationships between time series with spatial structure" presented by R.F. Supple et al. at the Isaac Newton Institute workshop on causal identification and discovery, 4th March 2026.
 
 Algorithms and helper functions are housed in the Code/ folder; functions and data related to the simulation study are in Simulations/; and code and data to replicate results from an analysis of causal drivers of garden bird sightings across the U.K. are available in the GBFS/.
 
